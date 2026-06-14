@@ -24,63 +24,85 @@
 
 ## 📌 Overview
 
-Error Budget Tracker with AI is a Streamlit-based SRE dashboard used to monitor system reliability, analyze logs, calculate error budgets, and generate AI-powered reports using Google Gemini AI.
+**Error Budget Tracker with AI** is a Streamlit-based dashboard designed for Site Reliability Engineering (SRE) monitoring and reliability analysis.
+
+The application helps engineering teams monitor service health, calculate error budgets, visualize reliability metrics, and generate AI-powered operational reports using Google Gemini AI.
 
 ---
 
 ## ✨ Features
 
-- CSV Log Upload & Processing  
-- Success & Failure Rate Calculation  
-- Error Budget Tracking  
-- Burn Rate Analysis  
-- Service-wise Filtering  
-- Interactive Visualizations  
-- AI SRE Report Generator  
-- Real-time Reliability Metrics  
+* 📂 CSV Log Upload & Processing
+* 📊 Success Rate & Failure Rate Calculation
+* 🎯 Error Budget Monitoring
+* 🔥 Burn Rate Analysis
+* 🔍 Service-wise Filtering
+* 📈 Interactive Data Visualization
+* 🥧 Success vs Failure Pie Chart
+* 📉 Service-wise Failure Analysis
+* 📋 Budget Utilization Trend Tracking
+* 🤖 AI-Powered SRE Report Generation
+* ⚡ Real-Time Reliability Insights
 
 ---
 
 ## 🖥️ Dashboard Modules
 
-### 📄 Log Viewer
-Upload CSV logs and view structured data.
+### 📄 Log Data Viewer
+* Upload CSV log files  
+* View processed request data  
+* Highlight Success and Failed requests  
 
 ### 📊 Metrics Dashboard
-- Total Requests  
-- Success Rate  
-- Failure Rate  
-- Budget Usage  
+* Total Requests  
+* Success Rate  
+* Failure Rate  
+* Budget Utilization  
 
 ### 📈 Visual Insights
-- Pie Chart (Success vs Failure)  
-- Service-wise Analysis  
-- Trend Charts  
+* Success vs Failure Pie Chart  
+* Service-wise Failure Analysis  
+* Budget Utilization Trend  
 
 ### 🤖 AI Report Generator
-- Executive Summary  
-- Risk Analysis  
-- Recommendations  
-- Burn Rate Insights  
+Generate professional SRE reports including:
+* Executive Summary  
+* Reliability Assessment  
+* Risk Analysis  
+* Burn Rate Evaluation  
+* Actionable Recommendations  
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technology Stack
 
-| Tech | Purpose |
-|------|--------|
-| Python | Backend |
-| Streamlit | UI Dashboard |
-| Pandas | Data Processing |
-| Matplotlib | Visualization |
-| Gemini AI | AI Reports |
+| Technology       | Usage                 |
+|----------------|----------------------|
+| Python           | Backend Processing    |
+| Streamlit        | Interactive Dashboard |
+| Pandas           | Data Analysis         |
+| Matplotlib       | Data Visualization    |
+| Google Gemini AI | AI Report Generation  |
 
 ---
 
-## 🚀 Installation
+## 📂 Project Structure
 
-```bash
-git clone https://github.com/YOUR_USERNAME/Error-Budget-Tracker-AI.git
-cd Error-Budget-Tracker-AI
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+```text
+Error-Budget-Tracker-AI/
+│
+├── README.md
+├── prompts.md
+├── AI_USAGE_NOTE.md
+├── LLM_EXAMPLES.md
+├── requirements.txt
+├── sample_logs.csv
+├── streamlit_app.py
+│
+├── tests/
+│   └── test_basic.py
+│
+└── output/
+    ├── dashboard.png
+    ├── ai_report.png
+    └── ai_report.md
