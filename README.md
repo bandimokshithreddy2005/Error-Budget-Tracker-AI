@@ -145,8 +145,7 @@ http://localhost:8501/
 
 ### DEMO VIDEO LINK
 
-"C:\Users\MOKSHITH REDDY\Desktop\ErrorBudgetTracker\DEMO VIDEO\DEMO VIDEO.mp4"
-
+https://drive.google.com/file/d/1Nhxl7Dwc6iB7yHisHK7FhUGrLFV7UTXh/view?usp=sharing
 ---
 
 ## 📊 Sample Reliability Metrics
