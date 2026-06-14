@@ -158,14 +158,5 @@ streamlit run streamlit_app.py
 
 ---
 
-## 👨‍💻 Author
-
-**Mokshith Reddy**
-
-B.Tech – Artificial Intelligence & Machine Learning
-
-Passionate about AI, Machine Learning, Cloud Monitoring, and Site Reliability Engineering.
-
----
 
 ⭐ If you found this project useful, consider giving it a Star on GitHub!
