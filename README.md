@@ -87,18 +87,23 @@ Generate professional SRE reports using Gemini AI including:
 
 ## 📂 Project Structure
 
-```text
-ErrorBudgetTracker/
+Error-Budget-Tracker-AI/
 │
-├── streamlit_app.py
+├── README.md
+├── prompts.md
+├── AI_USAGE_NOTE.md
+├── LLM_EXAMPLES.md
 ├── requirements.txt
 ├── sample_logs.csv
-├── README.md
+├── streamlit_app.py
+│
+├── tests/
+│   └── test_basic.py
 │
 └── output/
     ├── dashboard.png
-    └── ai_report.png
-```
+    ├── ai_report.png
+    └── ai_report.md
 
 ## 🚀 Installation
 
