@@ -9,166 +9,78 @@
 
 ---
 
+## 👥 Team Details
+
+### 🧑‍💻 Team Name: **Team Squid**
+
+| Name | Branch |
+|------|--------|
+| Bandi Mokshith Reddy | AI&ML |
+| Bavigadda Yamuna Lakshmi | CSE (AI) |
+| Bellam Nikitha | AI&DS |
+| Balaraju Sudhaveena | AI&DS |
+
+---
+
 ## 📌 Overview
 
-**Error Budget Tracker with AI** is a Streamlit-based dashboard designed for Site Reliability Engineering (SRE) monitoring and reliability analysis.
-
-The application helps engineering teams monitor service health, calculate error budgets, visualize reliability metrics, and generate AI-powered operational reports using Google Gemini AI.
+Error Budget Tracker with AI is a Streamlit-based SRE dashboard used to monitor system reliability, analyze logs, calculate error budgets, and generate AI-powered reports using Google Gemini AI.
 
 ---
 
 ## ✨ Features
 
-* 📂 CSV Log Upload & Processing
-* 📊 Success Rate & Failure Rate Calculation
-* 🎯 Error Budget Monitoring
-* 🔥 Burn Rate Analysis
-* 🔍 Service-wise Filtering
-* 📈 Interactive Data Visualization
-* 🥧 Success vs Failure Pie Chart
-* 📉 Service-wise Failure Analysis
-* 📋 Budget Utilization Trend Tracking
-* 🤖 AI-Powered SRE Report Generation
-* ⚡ Real-Time Reliability Insights
+- CSV Log Upload & Processing  
+- Success & Failure Rate Calculation  
+- Error Budget Tracking  
+- Burn Rate Analysis  
+- Service-wise Filtering  
+- Interactive Visualizations  
+- AI SRE Report Generator  
+- Real-time Reliability Metrics  
 
 ---
 
 ## 🖥️ Dashboard Modules
 
-### 📄 Log Data Viewer
-
-* Upload CSV log files
-* View processed request data
-* Highlight Success and Failed requests
+### 📄 Log Viewer
+Upload CSV logs and view structured data.
 
 ### 📊 Metrics Dashboard
-
-* Total Requests
-* Success Rate
-* Failure Rate
-* Budget Utilization
+- Total Requests  
+- Success Rate  
+- Failure Rate  
+- Budget Usage  
 
 ### 📈 Visual Insights
-
-* Success vs Failure Pie Chart
-* Service-wise Failure Analysis
-* Budget Utilization Trend
+- Pie Chart (Success vs Failure)  
+- Service-wise Analysis  
+- Trend Charts  
 
 ### 🤖 AI Report Generator
-
-Generate professional SRE reports including:
-
-* Executive Summary
-* Reliability Assessment
-* Risk Analysis
-* Burn Rate Evaluation
-* Actionable Recommendations
+- Executive Summary  
+- Risk Analysis  
+- Recommendations  
+- Burn Rate Insights  
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
-| Technology       | Usage                 |
-| ---------------- | --------------------- |
-| Python           | Backend Processing    |
-| Streamlit        | Interactive Dashboard |
-| Pandas           | Data Analysis         |
-| Matplotlib       | Data Visualization    |
-| Google Gemini AI | AI Report Generation  |
-
----
-
-## 📂 Project Structure
-
-```text
-Error-Budget-Tracker-AI/
-│
-├── README.md
-├── prompts.md
-├── AI_USAGE_NOTE.md
-├── LLM_EXAMPLES.md
-├── requirements.txt
-├── sample_logs.csv
-├── streamlit_app.py
-│
-├── tests/
-│   └── test_basic.py
-│
-└── output/
-    ├── dashboard.png
-    ├── ai_report.png
-    └── ai_report.md
-```
+| Tech | Purpose |
+|------|--------|
+| Python | Backend |
+| Streamlit | UI Dashboard |
+| Pandas | Data Processing |
+| Matplotlib | Visualization |
+| Gemini AI | AI Reports |
 
 ---
 
 ## 🚀 Installation
 
-### Clone Repository
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/Error-Budget-Tracker-AI.git
-```
-
-### Install Dependencies
-
-```bash
+cd Error-Budget-Tracker-AI
 pip install -r requirements.txt
-```
-
-### Run the Application
-
-```bash
 streamlit run streamlit_app.py
-```
-
----
-
-## 📸 Screenshots
-
-### Dashboard Preview
-
-![Dashboard](output/dashboard.png)
-
-### AI Report Generation
-
-![AI Report](output/ai_report.png)
-
----
-
-## 📊 Sample Reliability Metrics
-
-| Metric                 | Value |
-| ---------------------- | ----- |
-| Success Rate           | 99.2% |
-| Error Rate             | 0.8%  |
-| Burn Rate              | 0.8   |
-| Remaining Error Budget | 20%   |
-
----
-
-## 🔮 Future Enhancements
-
-* SLA Breach Prediction using Machine Learning
-* Real-Time Monitoring
-* Email Alert System
-* Incident Prediction
-* Advanced Analytics Dashboard
-* Multi-Service Monitoring
-* Automated Reliability Recommendations
-
----
-
-## 📚 Documentation
-
-* README.md
-* prompts.md
-* AI_USAGE_NOTE.md
-* LLM_EXAMPLES.md
-* tests/test_basic.py
-
----
-
-### ⭐ Support
-
-If you found this project useful, consider giving it a **Star ⭐** on GitHub.
