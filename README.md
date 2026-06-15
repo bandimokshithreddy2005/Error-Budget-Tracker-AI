@@ -1,5 +1,5 @@
-🚨 Error Budget Tracker with AI
 <p align="center">
+#🚨 Error Budget Tracker with AI
 <img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit" />
 <img src="https://img.shields.io/badge/Python-Backend-blue?style=for-the-badge&logo=python" />
 <img src="https://img.shields.io/badge/Google-Gemini%20AI-green?style=for-the-badge&logo=google" />
@@ -113,21 +113,30 @@ Technology	Usage
 text
 Error-Budget-Tracker-AI/
 │
-├── README.md
-├── prompts.md
-├── AI_USAGE_NOTE.md
-├── LLM_EXAMPLES.md
-├── requirements.txt
-├── sample_logs.csv
-├── streamlit_app.py
+├── README.md                # Project documentation
+├── prompts.md               # AI prompt templates
+├── AI_USAGE_NOTE.md         # Notes on AI usage guidelines
+├── LLM_EXAMPLES.md          # Example prompts & outputs
+├── requirements.txt         # Python dependencies
+├── sample_logs.csv          # Example log file for testing
+├── streamlit_app.py         # Main Streamlit dashboard app
+├── app.py                   # Core application logic
+├── analyzer.py              # Reliability metrics analyzer
+├── ai_report.py             # AI-powered report generator
+├── generate_logs.py         # Utility to generate sample logs
+├── monthly_logs.csv         # Example monthly log dataset
+├── ai_input.txt             # Input file for AI report generation
 │
-├── tests/
-│   └── test_basic.py
+├── tests/                   # Unit tests
+│   └── test_basic.py        # Basic functionality tests
 │
-└── output/
-    ├── dashboard.png
-    ├── ai_report.png
-    └── ai_report.md
+├── outputs/                 # Generated outputs
+│   ├── dashboard.png        # Dashboard screenshot
+│   ├── ai_report.png        # AI report screenshot
+│   └── ai_report.md         # Sample AI-generated report
+│
+└── DEMO VIDEO LINK          # Link to demo video
+
 🚀 Installation
 bash
 # Clone Repository
