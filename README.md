@@ -168,15 +168,12 @@ streamlit run streamlit_app.py
 
 ### Dashboard Preview
 
-```
 http://localhost:8501/
-```
 
-### Demo Video
+### DEMO VIDEO LINK
 
-```
-(https://drive.google.com/file/d/1Nhxl7Dwc6iB7yHisHK7FhUGrLFV7UTXh/view?usp=sharing)
-```
+https://drive.google.com/file/d/1Nhxl7Dwc6iB7yHisHK7FhUGrLFV7UTXh/view?usp=sharing
+
 
 ---
 
